@@ -1,4 +1,4 @@
-# take-my-hash
+# Take my Hash - [![Build Status](https://travis-ci.org/pjbank/pjbank-js-sdk.svg?branch=master)](https://travis-ci.org/pjbank/pjbank-js-sdk)
 Crypto.js helper - for lazy people (like me) 
 
 ## Quickstart
