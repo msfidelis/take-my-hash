@@ -2,10 +2,10 @@
   "name": "take-my-hash",
   "version": "1.0.0",
   "description": "Crypto-js Helper for Lazy People",
-  "main": "lib/take_my_hash.js",
+  "main": "lib/take-my-hash.js",
   "directories": {
     "lib": "lib",
-    "test": "bash -c './node_modules/.bin/lab -v -l -m 150000 -a chai'",
+    "test": "bash -c './node_modules/.bin/lab -v -l -a chai'",
     "coverage": "nyc --reporter=html npm run test"
   },
   "scripts": {
@@ -23,5 +23,10 @@
   "homepage": "https://github.com/msfidelis/take-my-hash#readme",
   "dependencies": {
     "crypto-js": "^3.1.9-1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "lab": "^14.3.1",
+    "nyc": "^11.2.1"
   }
 }
