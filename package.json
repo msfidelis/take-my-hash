@@ -5,7 +5,8 @@
   "main": "lib/take_my_hash.js",
   "directories": {
     "lib": "lib",
-    "test": "test"
+    "test": "bash -c './node_modules/.bin/lab -v -l -m 150000 -a chai'",
+    "coverage": "nyc --reporter=html npm run test"
   },
   "scripts": {
     "test": "lab"
