@@ -6,6 +6,8 @@
     "globals": {
         "module": true,
         "exports": true,
-        "require": false
+        "require": false,
+        "it": true,
+        "describe": true
     }
 }

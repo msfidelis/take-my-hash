@@ -4,12 +4,11 @@
   "description": "Crypto-js Helper for Lazy People",
   "main": "lib/take-my-hash.js",
   "directories": {
-    "lib": "lib",
-    "test": "bash -c './node_modules/.bin/lab -v -l -a chai'",
-    "coverage": "nyc --reporter=html npm run test"
+    "lib": "lib"
   },
   "scripts": {
-    "test": "lab"
+    "test": "mocha",
+    "coverage": "nyc --reporter=html npm run test"
   },
   "repository": {
     "type": "git",
@@ -25,8 +24,8 @@
     "crypto-js": "^3.1.9-1"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "lab": "^14.3.1",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.3",
     "nyc": "^11.2.1"
   }
 }
