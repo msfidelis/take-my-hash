@@ -1,0 +1,26 @@
+{
+  "name": "take-my-hash",
+  "version": "1.0.0",
+  "description": "Crypto-js Helper for Lazy People",
+  "main": "lib/take_my_hash.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msfidelis/take-my-hash.git"
+  },
+  "author": "Matheus Fidelis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msfidelis/take-my-hash/issues"
+  },
+  "homepage": "https://github.com/msfidelis/take-my-hash#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
