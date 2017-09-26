@@ -25,6 +25,7 @@ console.log(hash, rawText);
 ## MD5
 
 ```javascript
+let hash = tmh.md5('my text');
 ```
 
 ## SHA1 

@@ -8,6 +8,8 @@ const assert = require("chai").assert;
 const mockTxt = "yabadabadoo";
 const mockKey = "123123";
 
+const mockMD5 = "f79fc78d5c60342810cbde0bbebb4f08";
+
 const mochaSHA1 = "df3acb4fee67da09bdb54dca8227674396c84da9";
 const mockSHA224 = "d91a3ff3c03478029837ba389051df0caae1e5ef1654d9ed053f835d";
 const mockSHA256 = "999f36dd648c74f52972745be2ee94c4b53c48639debbf310bfd5d5fc84ee4f6";
@@ -27,6 +29,14 @@ describe("#Crypto Test", () => {
     expect(AESRaw).to.be.a('string');
     expect(AESRaw).to.be.equal(mockTxt);
 
+  });
+
+  it("#MD5", () => {
+    
+    let hash = tmh.md5(mockTxt);
+    expect(hash).to.be.a('string');
+    expect(hash).to.be.equal(mockMD5);
+    
   });
 
   it("#SHA1", () => {
